@@ -1,2 +1,3 @@
 # mf
-minimal fetch written on python
+
+![./img/preview.png]

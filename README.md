@@ -1,3 +1,3 @@
 # mf
 
-![./img/preview.png]
+![preview](./img/preview.png)

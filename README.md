@@ -1,6 +1,8 @@
 # mfetch
 
-> minimal fetch wirtten in python
+
+minimal fetch wirtten in python
+
 
 ![preview](./img/preview.png)
 

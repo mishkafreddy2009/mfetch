@@ -1,5 +1,3 @@
-# mf
-
-*ultra mega alpha version*
+# mfetch
 
 ![preview](./img/preview.png)

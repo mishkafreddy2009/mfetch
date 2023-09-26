@@ -32,6 +32,8 @@ class MinimalFetch():
 ⠀⠀⠀⠀⠀⠀⠻⠄⠀⠀⠀⢀⣿⠀⢠⡄⠀⠀⠀⣁⠁⡀⠀⢠⠀⠀⠀⠀⠀⠀⠀⠀⢀⣐⡟⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⢠⡇
         """
 
+        print(self.ascii_logo)
+
     def get_uptime(self):
         with open('/proc/uptime', 'r') as f:
             self.uptime_minutes = float(f.readline().split()[0]) // 60
@@ -40,17 +42,11 @@ class MinimalFetch():
         self.distro_name = list(platform.freedesktop_os_release().values())[0].lower()
 
 
-    def formatted_output(self):
-        print(self.ascii_logo)
-
-
 def get_fetch():
     mfetch = MinimalFetch()
     mfetch.get_distro_name()
     mfetch.get_uptime()
     mfetch.get_ascii()
-
-    mfetch.formatted_output()
 
 def main():
     get_fetch()

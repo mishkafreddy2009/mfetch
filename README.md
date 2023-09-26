@@ -1,4 +1,4 @@
-# mfetch
+# mf
 
 *ultra mega alpha version*
 

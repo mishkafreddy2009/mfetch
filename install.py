@@ -2,14 +2,14 @@ import shutil
 import os
 
 def get_chmod():
-    os.system("chmod a+x mf.py")
+    os.system("chmod a+x /usr/local/bin/mfetch")
 
 def move_to_bin():
-    shutil.copyfile("mf.py", "/usr/local/bin/mf")
+    shutil.copyfile("main.py", "/usr/local/bin/mfetch")
 
 def main():
-    get_chmod()
     move_to_bin()
+    get_chmod()
 
 if __name__ == "__main__":
     main()

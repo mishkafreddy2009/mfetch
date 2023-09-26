@@ -6,7 +6,7 @@ minimal fetch wirtten in python
 
 ![preview](./img/preview.png)
 
-# installation
+## installation
 ```sh
 git clone https://github.com/autaech/mfetch.git
 cd mfetch
